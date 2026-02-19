@@ -3,7 +3,7 @@ pizza_orders = [
    {'name': "Supreme"},
     {'name': "Taco"},
     {'name': "Veggie"},
-    {'name': {"Buffalo Chicken"}
+    {'name': "Buffalo Chicken"}
 ]
 finished_pizzas = []
 while pizza_orders:
