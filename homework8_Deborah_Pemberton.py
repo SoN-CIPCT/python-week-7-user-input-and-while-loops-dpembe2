@@ -6,8 +6,7 @@ pizza_orders = [
     "Buffalo Chicken",
 ]
 finished_pizzas = []
-index = 0
-while index < len(pizza_orders):
-    print(f"{pizza_orders[index]}: Your pizza pie is finished!")
-    index += 1
+while pizza_orders:
+    current_pizza = pizza_orders.pop(0)
+    print(f"{current_pizza}: Your pizza pie is finished!")
 finished_pizzas.append(current_pizza)
