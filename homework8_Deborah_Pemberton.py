@@ -5,3 +5,4 @@ pizza_orders = [
     "Veggie",
     "Buffalo Chicken",
 ]
+finished_pizzas = []
