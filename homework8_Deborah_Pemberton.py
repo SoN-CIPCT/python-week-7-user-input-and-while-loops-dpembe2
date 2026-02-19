@@ -3,7 +3,7 @@ pizza_orders = [
     "Supreme",
     "Taco",
     "Veggie",
-    "Buffalo Chicken",
+    "Buffalo Chicken"
 ]
 finished_pizzas = []
 while pizza_orders:
