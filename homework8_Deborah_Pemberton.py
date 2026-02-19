@@ -1,9 +1,9 @@
 pizza_orders = [
-    "Pepperoni",
-    "Supreme",
-    "Taco",
-    "Veggie",
-    "Buffalo Chicken"
+    {'name': "Pepperoni"},
+   {'name': "Supreme"},
+    {'name': "Taco"},
+    {'name': "Veggie"},
+    {'name': {"Buffalo Chicken"}
 ]
 finished_pizzas = []
 while pizza_orders:
@@ -12,5 +12,5 @@ while pizza_orders:
 finished_pizzas.append(current_pizza)
 index = 0
 while index < len(finished_pizzas):
-    print(f"The pizza {finished_pizzas[index]} was made.")
+    print(f"The pizza {finished_pizzas['name']} was made.")
     index += 1
