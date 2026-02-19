@@ -14,4 +14,4 @@ while pizza_orders:
 index = 0
 while index < len(finished_pizzas):
     print(f"The pizza {finished_pizzas[index]['name']} was made.")
-    index += 
+    index += 1
